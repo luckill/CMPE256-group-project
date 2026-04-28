@@ -5,14 +5,14 @@
 
 ## For CMPE256_Group_Project_EDA.ipynb:
 
-- Load ratebeer.json and beeradvocate.json to Colab runtime, or the ‘content’ folder in the working directory.
+- Load ratebeer.json and beeradvocate.json to Colab runtime, or the ‘content’ folder in the working directory,
 - Run all cells to view dataset analysis and train/test split creation.
 
 ## For CMPE256_Group_Project_Baseline.ipynb:
 
-- Download basic_train_temporal.parquet and basic_test_temporal.parquet from the shared Google Drive folder and upload them to your Colab runtime (/content/)
-- Update the file paths in the notebook to /content/basic_train_temporal.parquet and /content/basic_test_temporal.parquet if needed
-- Run all cells to train NormalPredictor and BaselineOnly (ALS) baselines and view RMSE, Precision@10, Recall@10 and NDCG@10 results
+- Download basic_train_temporal.parquet and basic_test_temporal.parquet from the shared Google Drive folder and upload them to your Colab runtime (/content/),
+- Update the file paths in the notebook to /content/basic_train_temporal.parquet and /content/basic_test_temporal.parquet if needed,
+- Run all cells to train NormalPredictor and BaselineOnly (ALS) baselines and view RMSE, Precision@10, Recall@10 and NDCG@10 results.
 
 ## For SVD_baseline.py
 
