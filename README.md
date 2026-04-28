@@ -1,5 +1,8 @@
 # CMPE256 Group Project
 [link to the preprocessed dataset](https://drive.google.com/drive/folders/1Z3eIdnZBQHGS5ElH6QiJ0XO2kaYDegj-?usp=sharing)
+
+# Phase 1 #
+
 ## For CMPE256_Group_Project_EDA.ipynb:
 
 - Load ratebeer.json and beeradvocate.json to Colab runtime, or the ‘content’ folder in the working directory.
@@ -19,6 +22,18 @@
 - run to source <#virtual environment name#>.bin/activate to activate the virtual environment.
 - run pip install -r requirements.txt to install the neccessary libraries.
 - run python svd_baseline.py to view RMSE, Precision@10, Recall@10 and NDCG@10 results.
+
+# Phase 2 #
+## For content based+autoencoder.ipynb ##
+
+- Ensure you have access to the shared Google Drive folder SP2026_CMPE256_Group12_Data which contains advanced_train_temporal.parquet and advanced_test_temporal.parquet
+- Mount your Google Drive when prompted
+- Run all cells in order to build beer feature matrix, train the autoencoder, and evaluate using negative sampling
+Final results include Precision@10, Recall@10 and NDCG@10 for all users, warm users and cold users separately
+
+## For CMPE256_Group_Project_RK_Variant-2.ipynb##
+- Load advanced_train_temporal.parquet and advanced_test_temporal.parquet to Colab runtime, or the ‘content’ folder in the working directory,,
+- Run all cells to view validation experimentation and final training and test results.
 
 ## Full Hybrid Recommender System
 
@@ -118,6 +133,8 @@ Main outputs include:
 - `cold_case3_ranked_recommendations.csv`
 - `cold_case3_user_metrics.csv`
 - `cold_case3_summary.csv`
+
+
 
 ### Full hybrid controller
 
